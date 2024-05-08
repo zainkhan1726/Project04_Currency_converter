@@ -1,12 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
-const currency = {
-    USD: 1,
-    EUR: 0.94,
-    INR: 83.37,
-    PKR: 270.65,
-    AED: 3.67,
-};
+import currency from "./currency.js";
 let userAnswer = await inquirer.prompt([
     {
         name: "from",

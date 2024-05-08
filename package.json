@@ -1,6 +1,6 @@
 {
   "name": "zain1726-currency_converter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is currency converter.",
   "main": "index.js",
   "type": "module",
